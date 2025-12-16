@@ -1,28 +1,17 @@
 {
-  "name": "e-commerce-backend",
+  "name": "ecommerce-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Efrata-Habte/E-commerce-Backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Efrata-Habte/E-commerce-Backend/issues"
-  },
-  "homepage": "https://github.com/Efrata-Habte/E-commerce-Backend#readme",
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "mongoose": "^9.0.1"
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.4"
   }
 }
